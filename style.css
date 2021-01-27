@@ -1,0 +1,84 @@
+/*POSTCARD GENERAL*/
+
+body{
+background-color: black;
+font-family: 'Yusei Magic', sans-serif;
+display:flex;
+justify-content: center;
+} 
+
+.postcard {
+
+background-color:white;
+height:350px;
+width: 500px;
+margin:5px;
+padding-left: 15px;
+}
+
+/* POSTCARD HEADER */
+
+.postcard_header{
+
+    display:flex;
+    justify-content: space-between;
+    margin:5px;
+    
+}
+
+img {
+   max-width: 80px;
+   height:70px;
+   padding: 5px;
+}
+
+/*POSTCARD BODY*/
+
+.postcard_body{
+display:flex;
+justify-content: space-between;
+}
+
+.text{
+max-width: 6cm;
+margin:0px;
+padding-right:15px;
+text-align: justify;
+text-justify: inter-word;
+
+}
+
+.address input{
+
+color: #aaa5a4;
+font-size: large;
+font-style: italic;
+margin-left:15px;
+}
+
+
+/*attribute for all inputs of Postcard*/
+
+input {
+border-top:none;
+border-right: none;
+border-left: none;
+border-width: thin;
+border-color:#aaa5a4;
+font-family: 'Yusei Magic', sans-serif;
+
+
+}
+
+
+/*POSTCARD FOOTER*/
+
+.footer {
+display: flex;
+justify-content: center;
+margin-top:20px;
+
+
+}
+
+
